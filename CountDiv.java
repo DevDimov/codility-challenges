@@ -24,6 +24,7 @@ public class CountDiv {
         int i = B / K;
         // Find all numbers from A to 1 that are divisible by K
         int j = A / K;
+        // Return all numbers between A and B that are divisible by K
         return result + i - j;
     }
 
